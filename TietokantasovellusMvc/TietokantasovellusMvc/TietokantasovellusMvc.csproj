@@ -150,8 +150,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HenkiloController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProjektiController.cs" />
+    <Compile Include="Controllers\TunnitController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -240,6 +242,16 @@
     <Content Include="Views\Projekti\Details.cshtml" />
     <Content Include="Views\Projekti\Edit.cshtml" />
     <Content Include="Views\Projekti\Index.cshtml" />
+    <Content Include="Views\Henkilo\Create.cshtml" />
+    <Content Include="Views\Henkilo\Delete.cshtml" />
+    <Content Include="Views\Henkilo\Details.cshtml" />
+    <Content Include="Views\Henkilo\Edit.cshtml" />
+    <Content Include="Views\Henkilo\Index.cshtml" />
+    <Content Include="Views\Tunnit\Create.cshtml" />
+    <Content Include="Views\Tunnit\Delete.cshtml" />
+    <Content Include="Views\Tunnit\Details.cshtml" />
+    <Content Include="Views\Tunnit\Edit.cshtml" />
+    <Content Include="Views\Tunnit\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
